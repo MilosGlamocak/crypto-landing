@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.342);
+    
 }
 
 .horizontal {
@@ -104,6 +104,10 @@
     cursor: pointer;
 }
 
+.buyBtnMobile {
+    display: none;
+}
+
 
 /* Responsive styles (mobile) */
 @media (max-width: 768px) {
@@ -115,7 +119,7 @@
         justify-content: center;
         flex-direction: column;
         gap: 1.5rem;
-        background-color: rgba(0, 0, 0, 0.342);
+        
     }
     
     .horizontal {
@@ -214,6 +218,6 @@
     }
 
     .buyBtnMobile {
-        display: inherit;
+        display: flex;
     }
 }

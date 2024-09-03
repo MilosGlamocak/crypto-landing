@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.342);
+    
     gap: 2rem;
 }
 
@@ -52,7 +52,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.342);
+        
         gap: 2rem;
     }
     
