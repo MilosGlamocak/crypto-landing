@@ -6,8 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column
 }
 
 .horizontal {
@@ -119,7 +118,6 @@
         justify-content: center;
         flex-direction: column;
         gap: 1.5rem;
-        
     }
     
     .horizontal {
@@ -139,7 +137,7 @@
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         padding: 0.5rem;
         border-radius: 10px;
         border: 1px solid white;
@@ -185,7 +183,7 @@
     
     .descriptionDiv h2 {
         font-weight: 900;
-        font-size: 4rem;
+        font-size: 3.5rem;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: rgb(80, 0, 80);
     }

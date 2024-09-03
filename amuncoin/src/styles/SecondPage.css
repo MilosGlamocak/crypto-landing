@@ -180,13 +180,13 @@
     .descRight {
         width: 100%;
         height: 50%;
-        padding: 1rem;
+        padding: 0.5rem;
         text-align: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 0.7rem;
         
     }
     
@@ -201,13 +201,13 @@
     }
     
     .thirdPageDescRight h3 {
-        font-size: 1.5rem;
-        font-weight: 800;
+        font-size: 1.2rem;
+        font-weight: 700;
     }
     
     .thirdPageDescRight h2 {
-        font-size: 2rem;
-        font-weight: 900;
+        font-size: 1.8rem;
+        font-weight: 800;
     }
     
     .thirdPageDescLeft {

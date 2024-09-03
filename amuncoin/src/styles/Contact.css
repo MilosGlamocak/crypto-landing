@@ -37,9 +37,8 @@
 }
 
 .copyright {
-    position: absolute !important;
-    bottom: -255%;
-    z-index: 998;
+    padding-top: 15rem;
+    margin-bottom: -5rem;
 }
 
 /* Responsive styles (mobile) */
