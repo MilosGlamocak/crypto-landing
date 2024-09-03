@@ -11,3 +11,19 @@
     background-color: rgba(0, 0, 0, 0.342);
 }
 
+/* Responsive styles (mobile) */
+@media (max-width: 768px) {
+    .thirdPageCont {
+        height: 100vh;
+        margin-top: -5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        background-color: rgba(0, 0, 0, 0.342);
+    }
+}
+

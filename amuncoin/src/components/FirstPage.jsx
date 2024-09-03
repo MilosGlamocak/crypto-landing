@@ -20,6 +20,7 @@ function FirstPage() {
         <ContentCopyIcon className='copyIcon'/>
         <p>0x532f27101965dd16442E59d40670FaF5eBB142E4</p>
       </div>
+      <div className='buyBtn buyBtnMobile'><p>Buy</p></div>
     </div>
   )
 }
