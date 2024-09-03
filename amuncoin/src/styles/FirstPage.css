@@ -1,0 +1,105 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.firstPageCont {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0;
+    height: 80%;
+}
+
+.hashCont {
+    background-color: rgba(255, 255, 255, 0.164);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition-duration: 0.2s;
+}
+
+.hashCont:hover {
+    cursor: pointer;
+    scale: 1.01;
+}
+
+.copyIcon:hover {
+    cursor: pointer;
+}
+
+.logoDiv {
+    height: 40%;
+}
+
+.logoDiv img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.descriptionDiv {
+    width: 40%;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0rem;
+    font-family: 'Inter', sans-serif!important;
+    word-wrap: break-word;
+}
+
+.descriptionDiv p {
+    font-weight: 600;
+}
+
+.descriptionDiv h2 {
+    font-weight: 900;
+    font-size: 7rem;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(80, 0, 80);
+}
+
+
+.linksDiv {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.linkBtn {
+    height: 50%;
+    width: 20%;
+    background-color: rgb(19, 15, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.linkBtn:hover {
+    cursor: pointer;
+}

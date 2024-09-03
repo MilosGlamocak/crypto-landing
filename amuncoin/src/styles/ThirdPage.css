@@ -1,0 +1,13 @@
+.thirdPageCont {
+    height: 100vh;
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+

@@ -1,0 +1,83 @@
+.topnavCont {
+    height: 7rem;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(0deg, rgba(36, 0, 34, 0.137) 0%, rgb(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(36, 0, 34, 0.137) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, rgba(36, 0, 34, 0.137) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 0, 212, 0.288);
+    z-index: 999;
+}
+
+
+.topnavRightCont {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnavCenterCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    width: 33%;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    
+}
+
+.topnavCenterCont * {
+    transition-duration: 0.4s;
+}
+
+.topnavCenterCont *:hover {
+    cursor: pointer;
+    color: rgb(255, 221, 255);
+}
+
+.topnavLeftCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    width: 33%;
+    height: 100%;
+}
+
+.buyBtn {
+    width: 30%;
+    height: 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+}
+
+.buyBtn:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    color: purple;
+    
+}
