@@ -17,8 +17,8 @@
 }
 
 .contactDiv {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     background-color: rgba(255, 255, 255, 0.199);
     border: 2px solid rgba(255, 255, 255, 0.527);
     border-radius: 10px;
@@ -34,4 +34,53 @@
 .contactDiv * {
     width: 100% !important;
     height: 100% !important;
+}
+
+.copyright {
+    position: absolute !important;
+    bottom: -255%;
+    z-index: 998;
+}
+
+/* Responsive styles (mobile) */
+@media (max-width: 768px) {
+    .contactCont {
+        height: 80vh;
+        width: 100%;
+        margin-top: -2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.342);
+        gap: 2rem;
+    }
+    
+    .contactsDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .contactDiv {
+        width: 5rem;
+        height: 5rem;
+        background-color: rgba(255, 255, 255, 0.199);
+        border: 2px solid rgba(255, 255, 255, 0.527);
+        border-radius: 10px;
+        transition-duration: 0.3s;
+    }
+    
+    .contactDiv:hover {
+        cursor: pointer;
+        border: 2px solid rgba(83, 0, 83, 0.411);
+        color: rgba(83, 0, 83, 0.411);
+    }
+    
+    .contactDiv * {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
 }
