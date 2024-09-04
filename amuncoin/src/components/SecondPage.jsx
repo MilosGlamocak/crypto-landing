@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {forwardRef} from 'react'
 import '../styles/SecondPage.css'
 import image from '/images/Concept_Art_golden_amun_ra_the_egyptian_god_sitting_on_a_thron_1.jpg'
 
-function SecondPage() {
+const SecondPage = forwardRef((props, ref) => {
   return (
-    <div className='secondPageCont'>
+    <div className='secondPageCont' ref={ref}>
       <div className='descHeader'>
         <h2>AMUN</h2>
         <div></div>
@@ -22,6 +22,6 @@ function SecondPage() {
       </div>
     </div>
   )
-}
+})
 
 export default SecondPage

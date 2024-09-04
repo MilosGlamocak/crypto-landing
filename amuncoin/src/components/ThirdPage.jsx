@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import '../styles/ThirdPage.css';
 import '../styles/SecondPage.css';
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
 
-function ThirdPage() {
+const ThirdPage = forwardRef((props, ref) => {
   return (
-    <div className='thirdPageCont'>
+    <div className='thirdPageCont' ref={ref}>
       <div className='descriptionCont'>
         <div className='descLeft thirdPageDescLeft'>
           <PieChart
@@ -48,6 +48,6 @@ function ThirdPage() {
       
     </div>
   );
-}
+})
 
 export default ThirdPage;
