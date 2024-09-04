@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import '../styles/FirstPage.css'
 import logo from '/images/asset2.png'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 
-function FirstPage() {
+const FirstPage = forwardRef((props, ref) => {
   return (
-    <div className='firstPageCont'>
+    <div className='firstPageCont' ref={ref}>
       <div className='horizontal'>
         <div className='logoDiv'>
             <img src={logo} alt="" />
@@ -23,6 +23,6 @@ function FirstPage() {
       <div className='buyBtn buyBtnMobile'><p>Buy</p></div>
     </div>
   )
-}
+})
 
 export default FirstPage
