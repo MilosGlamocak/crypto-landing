@@ -8,7 +8,7 @@
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    
+    user-select: none;
 }
 
 /* Responsive styles (mobile) */

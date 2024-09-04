@@ -7,7 +7,7 @@ const ThirdPage = forwardRef((props, ref) => {
   return (
     <div className='thirdPageCont' ref={ref}>
       <div className='descriptionCont'>
-        <div className='descLeft thirdPageDescLeft'>
+        <div className='descLeft thirdPageDescLeft' style={{userSelect: 'none !important'}}>
           <PieChart
             series={[
               {

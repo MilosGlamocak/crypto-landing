@@ -6,6 +6,8 @@ import FirstPage from './FirstPage';
 import SecondPage from './SecondPage';
 import ThirdPage from './ThirdPage';
 import Contact from './Contact';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function WebsiteContainer() {
   const firstPageRef = useRef(null);
@@ -32,6 +34,18 @@ function WebsiteContainer() {
       <SecondPage ref={secondPageRef} />
       <ThirdPage ref={thirdPageRef} />
       <Contact ref={contactRef} />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={500}
+        hideProgressBar={true}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 }
