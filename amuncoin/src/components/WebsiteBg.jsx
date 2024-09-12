@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/websiteBg.css'
+import '../styles/WebsiteBg.css'
 
 function WebsiteBg() {
   return (
